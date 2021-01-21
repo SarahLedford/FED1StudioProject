@@ -1,0 +1,29 @@
+﻿body {
+ 
+}
+#purple {color:purple}
+h1 {
+    font-family: 'Bradley Hand ITC';
+    font-weight: bold;
+    font-size:70px;
+}
+h2 {
+    font-family:'Bradley Hand ITC';
+   color:cadetblue
+}
+
+
+.reasonsToChooseUs {
+    font-family: 'Bradley Hand ITC';
+    font-weight: bolder
+}
+header p {
+    font-family: 'Bradley Hand ITC';
+    font-weight: bold;
+    font-size: 20px;
+    /*Need to figure out how to change margin size*/
+}
+
+section p {
+    font-family:'Segoe UI Symbol'
+}

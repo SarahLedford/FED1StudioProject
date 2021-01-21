@@ -67,11 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\karen-penroz-06ZTGDcAQFs-unsplash.jpg" />
-    <Content Include="images\karen-penroz-06ZTGDcAQFs-unsplash_resize.jpg" />
-    <Content Include="images\yarn.jpg" />
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="images\tara-evans-G-AQWUTgMZo-unsplash.jpg" />
+    <Content Include="stylesheets\CSS.css" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
@@ -90,7 +89,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="scripts\" />
-    <Folder Include="stylesheets\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
