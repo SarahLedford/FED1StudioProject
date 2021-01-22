@@ -1,22 +1,40 @@
 ﻿body {
  
 }
-#purple {color:purple}
+#siteTitle {
+    color: black;
+    background-image: linear-gradient(#ddd0e6, #ddd0e6, #b7b7cc);
+}
 h1 {
     font-family: 'Bradley Hand ITC';
     font-weight: bold;
     font-size:70px;
+    color:purple
 }
 h2 {
     font-family:'Bradley Hand ITC';
    color:cadetblue
 }
 
-
 .reasonsToChooseUs {
     font-family: 'Bradley Hand ITC';
     font-weight: bolder
+    }
+
+/*#region Contact Page*/
+
+h2.contactUs, h3.contactUs{
+    text-align:center
 }
+h3.contactUs{
+    font-family: 'Bradley Hand ITC';
+}
+p.contactInfo{
+    display:list-item
+}
+/*#endregion*/
+
+
 header p {
     font-family: 'Bradley Hand ITC';
     font-weight: bold;
@@ -27,3 +45,31 @@ header p {
 section p {
     font-family:'Segoe UI Symbol'
 }
+
+/* #region Hyperlinks*/
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .4em 1em;
+        display: block;
+        
+    }
+
+nav a:hover, nav a:active, nav a:focus {
+    text-decoration: none;
+}
+
+nav ul li a {
+    padding: .4em 1em;
+    display: block;
+    font-weight:bold;
+}
+
+a{
+    text-decoration:none;
+    
+}
+ /*#endregion */
