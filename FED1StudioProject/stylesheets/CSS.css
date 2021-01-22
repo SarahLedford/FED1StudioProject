@@ -34,6 +34,15 @@ p.contactInfo{
 }
 /*#endregion*/
 
+/*#region Team Page*/
+
+#departmentList {
+    list-style: none
+}
+
+
+/*#endregion*/
+
 
 header p {
     font-family: 'Bradley Hand ITC';
