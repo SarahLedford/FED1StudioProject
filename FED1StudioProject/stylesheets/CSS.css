@@ -1,4 +1,6 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
  
 }
 
@@ -7,48 +9,35 @@ main {
 }
 
 h2, h3 {
-    font-family: 'Segoe UI Symbol'
+    font-family: 'Segoe UI Symbol';
+    text-align: center;
 }
 
 section p {
-    font-family:'Segoe UI Symbol'
+    font-family: 'Segoe UI Symbol';
+    
 }
-
-
-/*#region Contact Page*/
-
-h2.contactUs, h3.contactUs{
-    text-align:center
-}
-h3.contactUs {
-    font-family: 'Segoe UI Symbol'
-}
-p.contactInfo{
-    display:list-item
-}
-/*#endregion*/
-
-/*#region Team Page*/
-
-
-#departmentList {
-    list-style: none
-}
-
-
-/*#endregion*/
-
-
-/*#region index page*/
-
-/*#endregion*/
 
 /*#region header logo and site name/slogan*/
+
+.socialLinks li{
+    display:inline-block;
+    
+}
+
+.socialLinks li a {
+    color: white;
+    font-size: 2em;
+}
+
+#siteTitle, #slogan {
+    font-family: 'Quicksand', sans-serif;
+}
 
 #siteTitle {
     color: white;
     text-shadow: 0 0 5px rgba(0,0,0,1);
-    text-align: center;
+    margin-left: 1.5em;
     margin-bottom: 0;
     font-size: 70px;
 }
@@ -56,10 +45,14 @@ p.contactInfo{
 #slogan {
     color: white;
     text-shadow: 0 0 5px rgba(0,0,0,1);
-    text-align: center;
+    margin-left: 6em;
     margin-top: 0;
     font-weight: bold;
     font-size: 20px;
+}
+
+#slogan{
+    margin-bottom:3em;
 }
 
 header {
@@ -82,26 +75,38 @@ header {
 
 /*#endregion*/
 
+/*#region index page*/
+
+.aboutUs h2, .aboutUs p{
+    display:block;
+    float:left;
+}
+
+
+/*#endregion*/
 
 /* #region Hyperlinks*/
 
+.currentPage {
+    font-style:italic;
+}
+
 nav {
-    text-align: center;
+ 
     background-color: rgba(0,0,0,.2);
 }
 
 nav ul li {
     display: inline-block;
-    position:center;
     color:black;
 }
 
 
 
-    nav a:hover, nav a:active, nav a:focus {
+nav a:hover, nav a:active, nav a:focus {
         box-shadow: 0 0 5px rgba(0,0,0,.4);
         background-color: rgba(99, 54, 35, .4)
-    }
+ }
 
 nav ul li a {
     padding: .4em 1em;
@@ -115,3 +120,65 @@ a{
     
 }
  /*#endregion */
+
+/*#region Lessons Page*/
+div.galleryItem {
+    display: inline-block;
+    width: 350px;
+    border: 1px solid #000;
+    margin: 5px;
+    background-color: lightgray;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    /*background color puts color behind the text, useable for classes in FED1Project*/
+}
+
+    div.galleryItem img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.galleryItem:hover {
+        border: 1px solid darkgray;
+    }
+
+    div.galleryItem a:hover {
+        
+    }
+
+#imageGallery {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+    /*#endregion*/
+    /*#region Team Page*/
+    #departmentList {
+    list-style: none
+}
+
+
+/*#endregion*/
+
+/*#region Contact Page*/
+
+.contactInfo {
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
+    display: block;
+    margin: 20px 30%;
+}
+}
+/*#endregion*/
+
+
+
+footer {
+    background-color: rgba(0,0,0,.2);
+    border: solid black 1px;
+}
+
+
+
+
+
+
+
