@@ -2,6 +2,10 @@
  
 }
 
+main {
+    font-family: 'Segoe UI Symbol'
+}
+
 h2, h3 {
     font-family: 'Segoe UI Symbol'
 }
@@ -16,8 +20,8 @@ section p {
 h2.contactUs, h3.contactUs{
     text-align:center
 }
-h3.contactUs{
-    font-family: 'Bradley Hand ITC';
+h3.contactUs {
+    font-family: 'Segoe UI Symbol'
 }
 p.contactInfo{
     display:list-item
@@ -25,6 +29,7 @@ p.contactInfo{
 /*#endregion*/
 
 /*#region Team Page*/
+
 
 #departmentList {
     list-style: none
@@ -57,37 +62,52 @@ p.contactInfo{
     font-size: 20px;
 }
 
-#headerOverlay{
+header {
     background-image: url(/images/kelly-sikkema-V1VkOENg_KQ-unsplash.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position-y: bottom;
     padding: 2em;
+    border: solid black 1px;
 }
+
+#headerOverlay {
+    background-image: url('/images/Threads of Magic Logo.png');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
 /*#endregion*/
 
 
 /* #region Hyperlinks*/
 
+nav {
+    text-align: center;
+    background-color: rgba(0,0,0,.2);
+}
+
 nav ul li {
     display: inline-block;
     position:center;
+    color:black;
 }
 
-    nav ul li a {
-        padding: .4em 1em;
-        display: block;
-        
+
+
+    nav a:hover, nav a:active, nav a:focus {
+        box-shadow: 0 0 5px rgba(0,0,0,.4);
+        background-color: rgba(99, 54, 35, .4)
     }
-
-nav a:hover, nav a:active, nav a:focus {
-    text-decoration: underline;
-}
 
 nav ul li a {
     padding: .4em 1em;
     display: block;
-    font-weight:bold;
+    font-weight: bold;
+    color: black;
 }
 
 a{
