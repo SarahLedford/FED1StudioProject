@@ -1,25 +1,15 @@
 ﻿body {
  
 }
-#siteTitle {
-    color: black;
-    background-image: linear-gradient(#ddd0e6, #ddd0e6, #b7b7cc);
-}
-h1 {
-    font-family: 'Bradley Hand ITC';
-    font-weight: bold;
-    font-size:70px;
-    color:purple
-}
-h2 {
-    font-family:'Bradley Hand ITC';
-   color:cadetblue
+
+h2, h3 {
+    font-family: 'Segoe UI Symbol'
 }
 
-.reasonsToChooseUs {
-    font-family: 'Bradley Hand ITC';
-    font-weight: bolder
-    }
+section p {
+    font-family:'Segoe UI Symbol'
+}
+
 
 /*#region Contact Page*/
 
@@ -44,21 +34,44 @@ p.contactInfo{
 /*#endregion*/
 
 
-header p {
-    font-family: 'Bradley Hand ITC';
-    font-weight: bold;
-    font-size: 20px;
-    /*Need to figure out how to change margin size*/
+/*#region index page*/
+
+/*#endregion*/
+
+/*#region header logo and site name/slogan*/
+
+#siteTitle {
+    color: white;
+    text-shadow: 0 0 5px rgba(0,0,0,1);
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 70px;
 }
 
-section p {
-    font-family:'Segoe UI Symbol'
+#slogan {
+    color: white;
+    text-shadow: 0 0 5px rgba(0,0,0,1);
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 20px;
 }
+
+#headerOverlay{
+    background-image: url(/images/kelly-sikkema-V1VkOENg_KQ-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y: bottom;
+    padding: 2em;
+}
+/*#endregion*/
+
 
 /* #region Hyperlinks*/
 
 nav ul li {
     display: inline-block;
+    position:center;
 }
 
     nav ul li a {
@@ -68,7 +81,7 @@ nav ul li {
     }
 
 nav a:hover, nav a:active, nav a:focus {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 nav ul li a {
