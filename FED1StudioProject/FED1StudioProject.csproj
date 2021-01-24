@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="favicon.ico" />
     <Content Include="images\giulia-bertelli-2OU30mdtseY-unsplash.jpg" />
     <Content Include="images\kelly-sikkema-V1VkOENg_KQ-unsplash.jpg" />
     <Content Include="images\kelly-sikkema-XvGoXXZnCkg-unsplash.jpg" />
