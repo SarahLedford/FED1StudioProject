@@ -85,7 +85,7 @@ header {
 
 /*#endregion*/
 
-/* #region Hyperlinks*/
+/* #region Nav*/
 
 .currentPage {
     font-style:italic;
@@ -122,12 +122,14 @@ a{
  /*#endregion */
 
 /*#region Lessons Page*/
+
+
 div.galleryItem {
     display: inline-block;
     width: 350px;
     border: 1px solid #000;
     margin: 5px;
-    background-color: lightgray;
+    background-color: rgba(0,0,0,.2);
     box-shadow: 0 0 5px rgba(0,0,0,.2);
     /*background color puts color behind the text, useable for classes in FED1Project*/
 }
@@ -145,12 +147,29 @@ div.galleryItem {
         
     }
 
-#imageGallery {
+#classes {
     margin: 0 auto;
-    width: 85%;
+    width: 60%;
     text-align: center;
-    /*#endregion*/
-    /*#region Team Page*/
+}
+
+.descriptionTitle {
+    font-family: 'Segoe UI Symbol';
+    font-weight:bold;
+   
+}
+
+.description {
+    font-family: 'Segoe UI Symbol';
+    font-weight: normal;
+    padding: 1em;
+    text-align: justify;
+   
+}
+ /*#endregion*/
+
+
+/*#region Team Page*/
     #departmentList {
     list-style: none
 }
@@ -169,12 +188,6 @@ div.galleryItem {
 }
 /*#endregion*/
 
-
-
-footer {
-    background-color: rgba(0,0,0,.2);
-    border: solid black 1px;
-}
 
 
 
