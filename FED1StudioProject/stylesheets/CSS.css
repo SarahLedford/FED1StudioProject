@@ -42,6 +42,23 @@ section p {
     font-size: 2em;
 }
 
+.socialLinksBottom {
+    display: inline;
+    float: right;
+    padding-right: 40px;
+    margin-top: .5em;
+}
+
+.socialLinksBottom li {
+    display: inline-block;
+}
+
+.socialLinksBottom li a {
+    color: white;
+    font-size: 2em;
+}
+
+
 #siteTitle, #slogan {
     font-family: 'Quicksand', sans-serif;
 }
