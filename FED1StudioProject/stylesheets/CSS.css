@@ -20,6 +20,11 @@ section p {
 
 /*#region header logo and site name/slogan*/
 
+.socialLinks {
+    display: inline;
+    float: right;
+}
+
 .socialLinks li{
     display:inline-block;
     
@@ -76,6 +81,18 @@ header {
 /*#endregion*/
 
 /*#region index page*/
+
+#picture1{
+
+}
+
+#picture2{
+
+}
+
+#picture3{
+    float:right;
+}
 
 .aboutUs h2, .aboutUs p{
     display:block;
