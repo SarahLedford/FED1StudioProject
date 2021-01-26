@@ -20,9 +20,16 @@ section p {
 
 /*#region header logo and site name/slogan*/
 
+#twitter{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 .socialLinks {
     display: inline;
     float: right;
+    padding-right: 40px;
+    margin-top: 0px;
 }
 
 .socialLinks li{
