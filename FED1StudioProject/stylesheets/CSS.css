@@ -10,7 +10,7 @@ main {
 
 h2, h3 {
     font-family: 'Segoe UI Symbol';
-    text-align: center;
+    
 }
 
 section p {
@@ -100,6 +100,7 @@ header {
     background-position: 3% center;
     padding: 2em;
     box-shadow: 0 0 10px rgba(0,0,0,1);
+    margin-top:.5em;
 }
 
 /*#endregion*/
@@ -126,12 +127,15 @@ width:100%;
 #iLeftColumn{
     width:25%;
     float:left;
+    padding-left:10em;
 
 }
 
 #iRightColumn{
-    width:73%;
+    width:60%;
     float:right;
+    padding-left:2em;
+    padding-right:2em;
 
 }
 
@@ -195,12 +199,14 @@ a{
 
 div.galleryItem {
     display: inline-block;
-    width: 350px;
+    width: 235px;
     border: 1px solid #000;
     margin: 5px;
     background-color: rgba(0,0,0,.2);
     box-shadow: 0 0 5px rgba(0,0,0,.2);
-    /*background color puts color behind the text, useable for classes in FED1Project*/
+    
+
+    
 }
 
     div.galleryItem img {
@@ -210,11 +216,10 @@ div.galleryItem {
 
     div.galleryItem:hover {
         border: 1px solid darkgray;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 2);
+        zoom: 105%;
     }
 
-    div.galleryItem a:hover {
-        
-    }
 
 #classes {
     margin: 0 auto;
@@ -248,6 +253,10 @@ div.galleryItem {
 
 /*#region Contact Page*/
 
+.contactUs 
+{
+    text-align:center;
+}
 .contactInfo {
     border-bottom: black solid 1px;
     border-top: black solid 1px;

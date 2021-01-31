@@ -70,8 +70,12 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="favicon.ico" />
+    <Content Include="images\Colorwork-3.png" />
     <Content Include="images\Crochet-on-chair-NEW.png" />
+    <Content Include="images\Foundational Stitches-3.png" />
+    <Content Include="images\From-the-Beginning-3.png" />
     <Content Include="images\Gray-Yarn.png" />
+    <Content Include="images\Reading Patterns-3.png" />
     <Content Include="images\yellow-yarn.jpg" />
     <Content Include="images\Colorwork.jpg" />
     <Content Include="images\Foundational Stitches.jpg" />
@@ -81,7 +85,9 @@
     <Content Include="images\paula-heckathorn-hU74ThCaP4w-unsplash.jpg" />
     <Content Include="images\Reading Patterns.jpg" />
     <Content Include="images\Threads of Magic Logo.png" />
+    <Content Include="images\Your First Blanket-3.png" />
     <Content Include="images\Your First Blanket.jpg" />
+    <Content Include="images\Your First Scarf-3.png" />
     <Content Include="images\Your First Scarf.jpg" />
     <Content Include="stylesheets\CSS.css" />
     <Content Include="Team.html" />
