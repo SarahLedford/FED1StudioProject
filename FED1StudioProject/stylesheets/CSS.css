@@ -15,6 +15,15 @@ section p {
     font-family: 'Segoe UI Symbol';
 }
 
+footer {
+    background-color: rgba(0,0,0,.2);
+    padding-bottom: 2em;
+    padding-top: 2em;
+    border: solid black 1px;
+    clear: both;
+}
+
+
 /*#region header logo and site name/slogan*/
 
 .twitter {
@@ -105,6 +114,11 @@ header {
 
 #picture1 {
     width: 100%;
+    border: solid black 1px;
+}
+
+#aboutUsSection{
+    margin-top: 4em;
 }
 
 #picture2 {
@@ -132,19 +146,56 @@ header {
     padding-right: 2em;
 }
 
-.clear {
-    clear: both;
+.iRightColumn2 p, .iRightColumn2 a {
+    width: 95%;
+    margin-left: 1.3em;
+    margin-top: 2em;
 }
+
+.iRightColumn2 h3 {
+    margin-top: 7em;
+    margin-left: 1.3em;
+}
+#iRightColumn h2 {
+    text-decoration: underline;
+}
+
+    .clear {
+        clear: both;
+    }
+
+    .iRightColumn2 a {
+        color: black;
+        font-weight: bold;
+        text-align: center;
+
+    }
 
 .iLeftColumn2 {
     width: 50%;
     float: left;
 }
-
-.iRightColumn2 {
-    width: 50%;
-    float: right;
+.iLeftColumn2 a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
 }
+
+.iLeftColumn2 p, .iLeftColumn2 a {
+    width: 95%;
+    margin-left: 1.3em;
+    margin-top: 2em;
+}
+
+    .iLeftColumn2 h3 {
+        margin-top: 7em;
+        margin-left: 1.3em;
+    }
+
+    .iRightColumn2 {
+        width: 50%;
+        float: right;
+    }
 
 /*#endregion*/
 
@@ -210,7 +261,7 @@ div.galleryItem {
     background-color: rgba(0,0,0,.2);
     box-shadow: 0 0 5px rgba(0,0,0,.2);
     margin-bottom: 2em;
-    margin-right: .5em;
+    margin-right: 1em;
     margin-left: .5em;
 }
 
