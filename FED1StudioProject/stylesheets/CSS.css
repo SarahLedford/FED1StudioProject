@@ -21,6 +21,7 @@ footer {
     padding-top: 2em;
     border: solid black 1px;
     clear: both;
+    margin-top: 2em;
 }
 
 
@@ -293,8 +294,12 @@ div.galleryItem {
     padding: 1em;
     text-align: justify;
 }
-/*#endregion*/
 
+.classAnchors{
+    color:black;
+}
+
+/*#endregion*/
 
 /*#region Team Page*/
 #departmentList {
@@ -365,6 +370,7 @@ div.galleryItem {
     clear:right;*/
 }
 /*#endregion*/
+
 /*#region Contact Page*/
 .contactUs {
     text-align: center;

@@ -8,6 +8,8 @@
     <meta name="keywords" content="crochet,yarn,learn,diy,beginners,advanced,patterns,crafts" />
     <link href="stylesheets/CSS.css" rel="stylesheet" />
 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" />
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="favicon.ico" rel="icon" />
@@ -27,20 +29,20 @@
         </li>
     </ul>
     <header>
-        
-            <!-- Company name and slogan -->
 
-            <div id="headerOverlay">
+        <!-- Company name and slogan -->
 
-                <h1 id="siteTitle">Threads of Magic</h1>
-                <p id="slogan">Learning to Spin Little Pieces of Magic, One Step at a Time</p>
-            </div>
+        <div id="headerOverlay">
 
-
+            <h1 id="siteTitle">Threads of Magic</h1>
+            <p id="slogan">Learning to Spin Little Pieces of Magic, One Step at a Time</p>
+        </div>
 
 
 
-        
+
+
+
     </header>
 
     <nav>
@@ -51,90 +53,314 @@
             <li><a href="/Contact.html">Contact Us</a></li>
         </ul>
     </nav>
-    <main> 
+    <main>
 
 
         <article id="classes">
-            <h1 style="text-align:center; margin-bottom:0";>Classes</h1>
+            <h1 style="text-align:center; margin-bottom:0" ;>Classes</h1>
             <p style="text-align:center; margin-top:0">Begin Your Journey into the World of Magic</p>
             <div>
-                <div class="galleryItem">
-                    <a href="/images/From-the-Beginning-3.png" target="_blank">
-                        <img src="/images/From-the-Beginning-3.png" alt="Photo by Kelly Sikkema on Unsplash" title="From the Beginning" width="400" height="200"/>
-                    </a>
-                    <div class="descriptionTitle">
-                        The Beginning
-                        <div class="description">
-                            In this class, you will learn all about everything that you need to start your first project!
+                <a href="#beginning" class="classAnchors">
+                    <div class="galleryItem">
+                        <img src="/images/From-the-Beginning-3.png" alt="Photo by Kelly Sikkema on Unsplash" title="From the Beginning" width="400" height="200" />
+
+
+                        <div class="descriptionTitle">
+                            The Beginning
+                            <div class="description">
+                                In this class, you will learn all about everything that you need to start your first project!
+                            </div>
                         </div>
+
                     </div>
-                </div>
-                <div class="galleryItem">
-                    <a href="/images/Foundational Stitches-3.png" target="_blank">
-                        <img src="/images/Foundational Stitches-3.png" alt="Photo by Castorly Stock from Pexels" title="Starting Crochet Chain"/>
-                    </a>
-                    <div class="descriptionTitle">
-                        Foundational Stitches
-                        <div class="description">
-                            Learn the foundational stitches that will get you through any project that you can imagine.
+                </a>
+                <a href="#foundation" class="classAnchors">
+                    <div class="galleryItem">
+
+                        <img src="/images/Foundational Stitches-3.png" alt="Photo by Castorly Stock from Pexels" title="Starting Crochet Chain" />
+
+
+                        <div class="descriptionTitle">
+                            Foundational Stitches
+                            <div class="description">
+                                Learn the foundational stitches that will get you through any project that you can imagine.
+                            </div>
                         </div>
+
                     </div>
-                </div>
-                <div class="galleryItem">
-                    <a href="/images/Reading Patterns-3.png" target="_blank">
-                        <img src="/images/Reading Patterns-3.png" alt="Photo by Anete Lusina from Pexels" title="Reading a Crochet Pattern"/>
-                    </a>
-                    <div class="descriptionTitle">
-                        Reading Patterns
-                        <div class="description">
-                            Learn all about how to read patterns and graphs. Once this skill is mastered, there's nothing you can't create!
+                </a>
+                <a href="#patterns" class="classAnchors">
+                    <div class="galleryItem">
+
+                        <img src="/images/Reading Patterns-3.png" alt="Photo by Anete Lusina from Pexels" title="Reading a Crochet Pattern" />
+
+
+                        <div class="descriptionTitle">
+                            Reading Patterns
+                            <div class="description">
+                                Learn all about how to read patterns and graphs. Once this skill is mastered, there's nothing you can't create!
+                            </div>
                         </div>
+
                     </div>
-                </div>
-                <div class="galleryItem">
-                    <a href="/images/Colorwork-3.png" target="_blank">
-                        <img src="/images/Colorwork-3.png" alt="Photo by Skitterphoto from Pexels" title="Colorful Yarn"/>
-                    </a>
-                    <div class="descriptionTitle">
-                        Colorwork
-                        <div class="description">
-                            Learn how to work with multiple colors at once to acheive more intricate designs.
+                </a>
+                <a href="#colorwork" class="classAnchors">
+                    <div class="galleryItem">
+
+                        <img src="/images/Colorwork-3.png" alt="Photo by Skitterphoto from Pexels" title="Colorful Yarn" />
+
+
+                        <div class="descriptionTitle">
+                            Colorwork
+                            <div class="description">
+                                Learn how to work with multiple colors at once to acheive more intricate designs.
+                            </div>
                         </div>
+
                     </div>
-                </div>
-                <div class="galleryItem">
-                    <a href="/images/Your First Scarf-3.png" target="_blank">
-                        <img src="/images/Your First Scarf-3.png" alt="Photo by Matthew Henry by Burst" title="Woman Wearing a Scarf with a Coffee"/>
-                    </a>
-                    <div class="descriptionTitle">
-                        Your First Scarf
-                        <div class="description">
-                            Conjure up your very first scarf with our simple, easy-to-follow instructions. The more love, the warmer it is.
+                </a>
+                <a href="#scarf" class="classAnchors">
+                    <div class="galleryItem">
+
+                        <img src="/images/Your First Scarf-3.png" alt="Photo by Matthew Henry by Burst" title="Woman Wearing a Scarf with a Coffee" />
+
+
+                        <div class="descriptionTitle">
+                            Your First Scarf
+                            <div class="description">
+                                Conjure up your very first scarf with our simple, easy-to-follow instructions. The more love, the warmer it is.
+                            </div>
                         </div>
+
                     </div>
-                </div>
-                <div class="galleryItem">
-                    <a href="/images/Your First Blanket-3.png" target="_blank">
-                        <img src="/images/Your First Blanket-3.png" alt="Photo by Mara Cotta by Pexels" title="Crochet Granny Square Afghan"/>
-                    </a>
-                    <div class="descriptionTitle">
-                        Your First Afghan
-                        <div class="description">
-                            The warmest blankets are the ones that were crafted with care. Learn how to make one today. <br />
+                </a>
+                <a href="#afghan" class="classAnchors">
+                    <div class="galleryItem">
+
+                        <img src="/images/Your First Blanket-3.png" alt="Photo by Mara Cotta by Pexels" title="Crochet Granny Square Afghan" />
+
+
+                        <div class="descriptionTitle">
+                            Your First Afghan
+                            <div class="description">
+                                The warmest blankets are the ones that were crafted with care. Learn how to make one today. <br />
+                            </div>
                         </div>
+
                     </div>
-                </div>
-                
-                
+                </a>
+
 
             </div>
         </article>
 
         <article>
-        <h1 style="font-size:1.5em; text-align:center;">Foundational Stitches - Class List</h1>
-        <p style="text-align:center">Placeholder for classes table</p>
+            <h1 id="beginning" style="font-size:1.5em; text-align:center;">The Beginning - Class List</h1>
         </article>
 
+        <table id="beginningTable" class="display">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Class</th>
+                    <th>Instructor</th>
+                    <th>Schedule</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Introduction to Crochet</td>
+                    <td>Rainier Marcia</td>
+                    <td>Monday 8:00 am - 10:00 am <br /> Tuesday 8:00 am - 10:00 am</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Types of Supplies</td>
+                    <td>
+                        Rainier Marcia
+                    </td>
+                    <td>Wednesday 10:00 am - 12:00 pm <br /> Thursday 10:00 am - 12:00 pm</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Which Supplies are Right for You</td>
+                    <td>Rainier Marcia</td>
+                    <td>Friday 12:00 pm - 2:00 pm <br /> Saturday 12:00 pm - 2:00 pm</td>
+                </tr>
+            </tbody>
+        </table>
+        <article>
+            <h1 id="foundation" style="font-size:1.5em; text-align:center;">Foundational Stitches - Class List</h1>
+        </article>
+
+        <table id="foundationTable" class="display">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Class</th>
+                    <th>Instructor</th>
+                    <th>Schedule</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Chaining and Single Crochet</td>
+                    <td>Jacquelyn Taylor</td>
+                    <td>Monday 8:00 am - 10:00 am <br /> Tuesday 8:00 am - 10:00 am</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Half-Double and Double Crochet</td>
+                    <td>Jacquelyn Taylor</td>
+                    <td>Wednesday 10:00 am - 12:00 pm <br /> Thursday 10:00 am - 12:00 pm</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Triple Crochet and Combination Stitches</td>
+                    <td>Jacquelyn Taylor</td>
+                    <td>Friday 12:00 pm - 2:00 pm <br /> Saturday 12:00 pm - 2:00 pm</td>
+                </tr>
+            </tbody>
+        </table>
+        <article>
+            <h1 id="patterns" style="font-size:1.5em; text-align:center;">Reading Patterns - Class List</h1>
+        </article>
+
+        <table id="readingTable" class="display">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Class</th>
+                    <th>Instructor</th>
+                    <th>Schedule</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Written Patterns</td>
+                    <td>Charles Robbins</td>
+                    <td>Monday 8:00 am - 10:00 am <br /> Tuesday 8:00 am - 10:00 am</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Working from Color Charts</td>
+                    <td>Charles Robbins</td>
+                    <td>Wednesday 10:00 am - 12:00 pm <br /> Thursday 10:00 am - 12:00 pm</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Working from Symbol Charts</td>
+                    <td>Charles Robbins</td>
+                    <td>Friday 12:00 pm - 2:00 pm <br /> Saturday 12:00 pm - 2:00 pm</td>
+                </tr>
+            </tbody>
+        </table>
+        <article>
+            <h1 id="colorwork" style="font-size:1.5em; text-align:center;">Colorwork - Class List</h1>
+        </article>
+
+        <table id="colorworkTable" class="display">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Class</th>
+                    <th>Instructor</th>
+                    <th>Schedule</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Types of Colorwork</td>
+                    <td>Rainier Marcia</td>
+                    <td>Monday 2:00 pm - 4:00 pm <br /> Tuesday 2:00 pm - 4:00 pm</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Carrying Colors</td>
+                    <td>Rainier Marcia</td>
+                    <td>Wednesday 4:00 pm - 6:00 pm <br /> Thursday 4:00 pm - 6:00 pm</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Tapestry Crochet</td>
+                    <td>Rainier Marcia</td>
+                    <td>Friday 6:00 pm - 8:00 pm <br /> Saturday 6:00 pm - 8:00 pm</td>
+                </tr>
+            </tbody>
+        </table>
+        <article>
+            <h1 id="scarf" style="font-size:1.5em; text-align:center;">Your First Scarf - Class List</h1>
+        </article>
+
+        <table id="scarfTable" class="display">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Class</th>
+                    <th>Instructor</th>
+                    <th>Schedule</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Simplistic Scarf</td>
+                    <td>Jacquelyn Taylor</td>
+                    <td>Monday 2:00 pm - 4:00 pm <br /> Tuesday 2:00 pm - 4:00 pm</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Textured Scarf</td>
+                    <td>Jacquelyn Taylor</td>
+                    <td>Wednesday 4:00 pm - 6:00 pm <br /> Thursday 4:00 pm - 6:00 pm</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Lace Scarf</td>
+                    <td>Jacquelyn Taylor</td>
+                    <td>Friday 6:00 pm - 8:00pm <br /> Saturday 6:00 pm - 8:00 pm</td>
+                </tr>
+            </tbody>
+        </table>
+        <article>
+            <h1 id="afghan" style="font-size:1.5em; text-align:center;">Your First Afghan - Class List</h1>
+        </article>
+
+        <table id="afghanTable" class="display">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Class</th>
+                    <th>Instructor</th>
+                    <th>Schedule</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Simplistic Afghan</td>
+                    <td>Charles Robbins</td>
+                    <td>Monday 2:00 pm - 4:00 pm <br /> Tuesday 2:00 pm - 4:00 pm</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Textured Afghan</td>
+                    <td>Charles Robbins</td>
+                    <td>Wednesday 4:00 pm - 6:00 pm <br /> Thursday 4:00 pm - 6:00 pm</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Lacework Afghan</td>
+                    <td>Charles Robbins</td>
+                    <td>Friday 6:00 pm - 8:00 pm <br /> Saturday 6:00 pm - 8:00 pm</td>
+                </tr>
+            </tbody>
+        </table>
+        <a id="BackToTop" href="#">Back To Top</a>
     </main>
     <footer>
         <ul class="socialLinksBottom">
@@ -155,5 +381,24 @@
         <p>All Rights Reserved 2021 Sarah Ledford</p>
 
     </footer>
+
+    <!-- ************Step 1 -- implementing a plugin*********** -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Script for datatables.net -->
+    <script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+
+
+    <script>
+        $(function () {
+
+            $('#beginningTable').DataTable();
+            $('#foundationTable').DataTable();
+            $('#readingTable').DataTable();
+            $('#colorworkTable').DataTable();
+            $('#scarfTable').DataTable();
+            $('#afghanTable').DataTable();
+        });
+    </script>
 </body>
 </html>
